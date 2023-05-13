@@ -1,0 +1,10 @@
+
+format = "$git_branch$git_status$directory$character"
+# Nutshell controls the color of commands typed after the prompt.
+
+# Displays text, typically a single character,
+# based on the status of the previous command.
+[character]
+success_symbol = "[▶](bold green)" # normal prompt
+error_symbol = "[✗](bold red)" # used if previous command failed
+# error_symbol does not work in Nushell
